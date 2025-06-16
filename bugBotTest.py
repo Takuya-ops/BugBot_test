@@ -4,3 +4,6 @@ def calculate_total(items):
     for item in items:
         total += item.price  # item.priceが存在しない場合のエラー
     return total
+
+
+print(calculate_total(item))
